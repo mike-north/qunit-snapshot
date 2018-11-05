@@ -2,3 +2,5 @@ dist
 node_modules
 tmp
 *.log
+.nyc_output
+coverage
