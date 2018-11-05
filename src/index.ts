@@ -61,7 +61,7 @@ function snapshot(
   const moduleName = current.name;
   const testName = qunit.config.current.testName;
   const expected = cfg.getSnapshot(
-    current.name as ModuleId,
+    current.name,
     qunit.config.current.testName as TestId,
     name || `${assertCount}`
   );
