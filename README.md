@@ -4,7 +4,7 @@ Snapshot-based assertions for QUnit test suites
 
 [![Build Status](https://travis-ci.org/mike-north/qunit-snapshot.svg?branch=master)](https://travis-ci.org/mike-north/qunit-snapshot)
 [![codecov](https://codecov.io/gh/mike-north/qunit-snapshot/branch/master/graph/badge.svg)](https://codecov.io/gh/mike-north/qunit-snapshot)
-[![Version](https://img.shields.io/npm/v/:package.svg)](https://www.npmjs.com/package/qunit-snapshot)
+[![Version](https://img.shields.io/npm/v/qunit-snapshot.svg)](https://www.npmjs.com/package/qunit-snapshot)
 
 ## Setup
 
