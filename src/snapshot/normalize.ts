@@ -1,8 +1,7 @@
 import { Value as JSONValue } from 'json-typescript';
 import { AbbrevAlement, Snapshot } from '.';
 
-function valueToSnapshot(value: JSONValue): Snapshot;
-function valueToSnapshot(value: AbbrevAlement): Snapshot;
+function valueToSnapshot(value: JSONValue | AbbrevAlement): Snapshot;
 function valueToSnapshot(value: any): Snapshot {
   if (typeof value.outerHTML === 'string') {
     return elementToSnapshot(value);
