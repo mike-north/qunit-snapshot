@@ -1,7 +1,13 @@
-import hello from 'qunit-snapshot';
+import './test-helpers';
 
 QUnit.module('qunit-snapshot tests');
 
 QUnit.test('hello', assert => {
-  assert.equal(hello(), 'Hello from qunit-snapshot');
+  assert.snapshot({
+    foo: 'bar',
+    data: {
+      key: 'value'
+    }
+  });
+  assert.snapshot(document.querySelector('.qunit-filter'));
 });
