@@ -18,18 +18,18 @@ declare global {
 }
 
 export interface Config {
-  loadSnapshots(): boolean;
-  getSnapshot(
+  loadSnapshots?: () => Promise<boolean>;
+  getSnapshot: (
     module: ModuleId | undefined,
     test: TestId,
     snapName: string
-  ): Snapshot | undefined;
-  saveSnapshot(
+  ) => Snapshot | void;
+  saveSnapshot?: (
     module: ModuleId | undefined,
     test: TestId,
     snapName: string,
     serializedSnap: string
-  ): boolean;
+  ) => Promise<any>;
 }
 
 export function install(qunit: QUnit = QUnit, cfg: Config) {
@@ -56,6 +56,7 @@ function snapshot(
   value: Snapshottable,
   name?: string
 ): void {
+  const { saveSnapshot } = cfg;
   const current = currentQUnitModule(qunit);
   const expected = cfg.getSnapshot(
     current.name as ModuleId,
@@ -64,9 +65,14 @@ function snapshot(
   );
   const snap: Snapshot = normalizeSnapshot(value);
   if (!expected) {
+    if (!saveSnapshot) {
+      throw new Error(
+        'No saveSnapshot defined in configuration. This would be valid, except a missing snapshot was encountered!'
+      );
+    }
     // create a new snapshot
     qunit.assert.ok(
-      cfg.saveSnapshot(
+      saveSnapshot(
         current.name,
         qunit.config.current.testName,
         name || `${assertCount}`,
