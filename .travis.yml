@@ -17,8 +17,9 @@ node_js:
   - '9'
   - '8'
   - '6'
-after_success:
+after_script:
   - codecov
+after_success:
   - yarn travis-deploy-once "yarn semantic-release"
 branches:
   except:
