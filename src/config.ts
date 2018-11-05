@@ -1,4 +1,9 @@
-import { Snapshot } from './snapshot';
+import { Snapshot, Snapshottable } from './snapshot';
+
+export interface SanitizeHook {
+  (type: 'element', value: string): Snapshottable;
+  (type: 'other', value: any): Snapshottable;
+}
 
 /**
  * Configuration object for qunit-snapshot
@@ -6,6 +11,7 @@ import { Snapshot } from './snapshot';
  */
 export default interface Config {
   loadSnapshots?: () => Promise<boolean>;
+  sanitize?: SanitizeHook;
   getSnapshot: (
     module: string | undefined,
     test: string,

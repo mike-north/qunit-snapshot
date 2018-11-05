@@ -1,8 +1,7 @@
-// tslint:disable-next-line:no-commented-code
-// import * as jsonStringify from 'json-stable-stringify';
 import { Snapshot } from '.';
+import Config from '../config';
 
-function serializeSnapshot(value: Snapshot): string {
+function serializeSnapshot(value: Snapshot, _cfg: Config): string {
   return JSON.stringify(value, null, '  ');
 }
 export default serializeSnapshot;
