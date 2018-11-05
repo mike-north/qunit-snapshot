@@ -30,10 +30,10 @@ export function compareSnapshots<T extends Snapshot>(
     assert.equal(
       found,
       expect.substr(1, expect.length - 2),
-      'snapshots should match'
+      SNAPSHOT_ASSERT_MESSAGE
     );
     return true;
   }
-  assert.equal(found, expect, 'snapshots should match');
+  assert.equal(found, expect, SNAPSHOT_ASSERT_MESSAGE);
   return true;
 }
