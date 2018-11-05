@@ -13,7 +13,7 @@ export { Snapshot } from './snapshot';
 
 declare global {
   interface Assert {
-    snapshot(value: Snapshottable): void;
+    snapshot(value: Snapshottable, name: string): void;
   }
 }
 
@@ -33,7 +33,7 @@ export interface Config {
 }
 
 export function install(qunit: QUnit = QUnit, cfg: Config) {
-  qunit.assert.snapshot = (value: Snapshottable, name?: string) => {
+  qunit.assert.snapshot = (value: Snapshottable, name: string) => {
     snapshot(qunit, cfg, value, name);
   };
   if (cfg.loadSnapshots && !cfg.loadSnapshots()) {
@@ -54,7 +54,7 @@ function snapshot(
   qunit: QUnit,
   cfg: Config,
   value: Snapshottable,
-  name?: string
+  name: string
 ): void {
   const { saveSnapshot } = cfg;
   const current = currentQUnitModule(qunit);
@@ -74,12 +74,7 @@ function snapshot(
     }
     // create a new snapshot
     qunit.assert.ok(
-      saveSnapshot(
-        moduleName,
-        testName,
-        name || `${assertCount}`,
-        serializeSnapshot(snap)
-      ),
+      saveSnapshot(moduleName, testName, name, serializeSnapshot(snap)),
       'new snapshot created'
     );
   } else {

@@ -20,8 +20,5 @@ declare global {
 }
 
 export function currentQUnitModule(qunit: QUnit): CurrentModule {
-  if (!qunit.config.currentModule.snapshots) {
-    qunit.config.currentModule.snapshots = {};
-  }
-  return qunit.config.currentModule;
+  return qunit.config.current.module;
 }
