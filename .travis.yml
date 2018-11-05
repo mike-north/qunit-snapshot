@@ -14,9 +14,7 @@ notifications:
   email: false
 node_js:
   - '10'
-  - '9'
   - '8'
-  - '6'
 after_script:
   - codecov
 after_success:
