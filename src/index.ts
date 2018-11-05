@@ -36,7 +36,7 @@ export function install(qunit: QUnit = QUnit, cfg: Config) {
   qunit.assert.snapshot = (value: Snapshottable, name?: string) => {
     snapshot(qunit, cfg, value, name);
   };
-  if (!cfg.loadSnapshots()) {
+  if (cfg.loadSnapshots && !cfg.loadSnapshots()) {
     throw new Error('problem loading snapshots');
   }
 
