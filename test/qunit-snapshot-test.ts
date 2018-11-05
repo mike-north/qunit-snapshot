@@ -9,5 +9,7 @@ QUnit.test('hello', assert => {
       key: 'value'
     }
   });
-  assert.snapshot(document.querySelector('.qunit-filter'));
+  if (typeof window !== 'undefined') {
+    assert.snapshot(document.querySelector('.qunit-filter'));
+  }
 });
