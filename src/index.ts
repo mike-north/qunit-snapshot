@@ -1,10 +1,10 @@
-import { currentQUnitModule, TestId, ModuleId } from './qunit-utils';
 import { compareSnapshots } from './compare';
+import { ModuleId, TestId, currentQUnitModule } from './qunit-utils';
 import {
-  Snapshottable,
   Snapshot,
-  serializeSnapshot,
-  normalizeSnapshot
+  Snapshottable,
+  normalizeSnapshot,
+  serializeSnapshot
 } from './snapshot';
 export { Snapshot } from './snapshot';
 
