@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/mike-north/qunit-snapsho/compare/v1.0.0...v1.1.0) (2018-11-05)
+
+
+### Bug Fixes
+
+* fix test helpers ([ead1ba6](https://github.com/mike-north/qunit-snapsho/commit/ead1ba6))
+
+
+### Features
+
+* allow async saving ([a47082a](https://github.com/mike-north/qunit-snapsho/commit/a47082a))
+
 # 1.0.0 (2018-11-05)
 
 
