@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/mike-north/qunit-snapsho/compare/v1.1.1...v1.1.2) (2018-11-05)
+
+
+### Bug Fixes
+
+* close over module/test name at time of snap ([34973d1](https://github.com/mike-north/qunit-snapsho/commit/34973d1))
+
 ## [1.1.1](https://github.com/mike-north/qunit-snapsho/compare/v1.1.0...v1.1.1) (2018-11-05)
 
 
