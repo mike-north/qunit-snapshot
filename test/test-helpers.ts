@@ -1,12 +1,8 @@
-import { install } from 'qunit-snapshot';
-import { Snapshot } from 'qunit-snapshot';
+import { Config, Snapshot, install } from 'qunit-snapshot';
 
-const BROWSER_CONFIG = {
-  loadSnapshots() {
-    return true;
-  },
+const BROWSER_CONFIG: Config = {
   getSnapshot(
-    moduleName: string,
+    moduleName: string | undefined,
     testName: string,
     snapName: string
   ): Snapshot | undefined {
@@ -27,26 +23,23 @@ const BROWSER_CONFIG = {
     }
   },
   saveSnapshot(
-    moduleName: string,
+    moduleName: string | undefined,
     testName: string,
     snapName: string,
     serializedSnap: string
-  ): boolean {
+  ): Promise<any> {
     const key = ['snap', moduleName || '', testName, snapName]
       .map(k => k.replace(/[^A-Za-z0-9\-\_]+/, ''))
       .join('-');
     localStorage.setItem(key, serializedSnap);
-    return true;
+    return Promise.resolve();
   }
 };
-const NODE_CONFIG = (function() {
+const NODE_CONFIG: Config = (() => {
   const DATA: { [k: string]: string } = {};
   return {
-    loadSnapshots() {
-      return true;
-    },
     getSnapshot(
-      moduleName: string,
+      moduleName: string | undefined,
       testName: string,
       snapName: string
     ): Snapshot | undefined {
@@ -67,16 +60,16 @@ const NODE_CONFIG = (function() {
       }
     },
     saveSnapshot(
-      moduleName: string,
+      moduleName: string | undefined,
       testName: string,
       snapName: string,
       serializedSnap: string
-    ): boolean {
+    ): Promise<any> {
       const key = ['snap', moduleName || '', testName, snapName]
         .map(k => k.replace(/[^A-Za-z0-9\-\_]+/, ''))
         .join('-');
       DATA[key] = serializedSnap;
-      return true;
+      return Promise.resolve();
     }
   };
 })();
