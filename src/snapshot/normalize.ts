@@ -1,8 +1,8 @@
 import { Value as JSONValue } from 'json-typescript';
 import { AbbrevAlement, Snapshot } from '.';
 
-function valueToSnapshot(value: JSONValue | AbbrevAlement): Snapshot;
-function valueToSnapshot(value: any): Snapshot {
+function normalizeSnapshot(value: JSONValue | AbbrevAlement): Snapshot;
+function normalizeSnapshot(value: any): Snapshot {
   if (typeof value.outerHTML === 'string') {
     return elementToSnapshot(value);
   } else {
@@ -27,4 +27,4 @@ function otherToSnapshot(value: any): Snapshot {
   return '' + value;
 }
 
-export default valueToSnapshot;
+export default normalizeSnapshot;

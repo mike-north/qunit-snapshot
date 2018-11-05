@@ -5,6 +5,6 @@
     "rootFolder": "."
   },
   "project": {
-    "entryPointSourceFile": "dist/types/index.d.ts"
+    "entryPointSourceFile": "dist/types/src/index.d.ts"
   }
 }

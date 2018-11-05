@@ -1,4 +1,4 @@
-import { Snapshot } from 'src/snapshot';
+import { Snapshot } from '.';
 
 export interface SuccessResult {
   readonly result: 'ok';

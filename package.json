@@ -22,6 +22,8 @@
   ],
   "scripts": {
     "problems": "node ./scripts/problems.js",
+    "extract-api": "./node_modules/.bin/api-extractor run",
+    "build-api-docs": "./node_modules/.bin/api-documenter markdown -i dist -o docs",
     "preversion": "npm run test",
     "prepare": "ember build -prod",
     "build": "ember build -prod",
@@ -37,6 +39,7 @@
     "@commitlint/cli": "7.2.1",
     "@commitlint/config-conventional": "7.1.2",
     "@commitlint/travis-cli": "7.2.1",
+    "@microsoft/api-documenter": "^1.5.49",
     "@microsoft/api-extractor": "6.1.1",
     "@mike-north/js-lib-semantic-release-config": "0.0.0-development",
     "@mike-north/types": "1.0.7",
