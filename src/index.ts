@@ -58,6 +58,8 @@ function snapshot(
 ): void {
   const { saveSnapshot } = cfg;
   const current = currentQUnitModule(qunit);
+  const moduleName = current.name;
+  const testName = qunit.config.current.testName;
   const expected = cfg.getSnapshot(
     current.name as ModuleId,
     qunit.config.current.testName as TestId,
@@ -73,8 +75,8 @@ function snapshot(
     // create a new snapshot
     qunit.assert.ok(
       saveSnapshot(
-        current.name,
-        qunit.config.current.testName,
+        moduleName,
+        testName,
         name || `${assertCount}`,
         serializeSnapshot(snap)
       ),
