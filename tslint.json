@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:recommended", "tslint:sonarts", "tslint:prettier"],
+  "extends": ["tslint:recommended", "tslint-sonarts", "tslint-config-prettier"],
   "defaultSeverity": "warning",
   "rules": {
     "arrow-parens": [true, "ban-single-arg-parens"],
