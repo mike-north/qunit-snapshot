@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mike-north/qunit-snapsho/compare/v1.2.1...v1.3.0) (2018-11-06)
+
+
+### Features
+
+* rename setup hook to `setupSnapshots` ([2dea9bd](https://github.com/mike-north/qunit-snapsho/commit/2dea9bd))
+
 ## [1.2.1](https://github.com/mike-north/qunit-snapsho/compare/v1.2.0...v1.2.1) (2018-11-06)
 
 
