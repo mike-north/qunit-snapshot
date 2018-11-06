@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/mike-north/qunit-snapsho/compare/v1.1.4...v1.2.0) (2018-11-05)
+
+
+### Bug Fixes
+
+* code coverage ([e236d73](https://github.com/mike-north/qunit-snapsho/commit/e236d73))
+* properly handle wrapping newlines in diff ([bbfcd63](https://github.com/mike-north/qunit-snapsho/commit/bbfcd63))
+* remove code duplication ([e32263a](https://github.com/mike-north/qunit-snapsho/commit/e32263a))
+* remove unneeded cast ([2ed73e0](https://github.com/mike-north/qunit-snapsho/commit/2ed73e0))
+
+
+### Features
+
+* allow custom sanitization of snapshot values ([d06276e](https://github.com/mike-north/qunit-snapsho/commit/d06276e))
+* API docs ([c0d7948](https://github.com/mike-north/qunit-snapsho/commit/c0d7948))
+
 ## [1.1.4](https://github.com/mike-north/qunit-snapsho/compare/v1.1.3...v1.1.4) (2018-11-05)
 
 
