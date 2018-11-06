@@ -17,10 +17,10 @@ yarn add -D qunit-snapshot
 then, before running your tests, setup the plugin
 
 ```ts
-import { install } from 'qunit-snapshot';
+import { setupSnapshots } from 'qunit-snapshot';
 
 // It is your responsibility to implement these two functions
-install(QUnit, {
+setupSnapshots(QUnit, {
   getSnapshot(
     moduleName?: string|undefined,
     testName: string,

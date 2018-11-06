@@ -3,22 +3,27 @@ sudo: required
 dist: trusty
 addons:
   chrome: stable
+
 before_script:
   - 'sudo chown root /opt/google/chrome/chrome-sandbox'
   - 'sudo chmod 4755 /opt/google/chrome/chrome-sandbox'
-  - npm install -g codecov
+
 cache:
   directories:
     - ~/.npm
 notifications:
   email: false
+
 node_js:
   - '10'
   - '8'
+
+script:
+  - node_modules/.bin/nyc yarn test && yarn travis-deploy-once "yarn semantic-release"
+
 after_script:
-  - codecov
-after_success:
-  - yarn travis-deploy-once "yarn semantic-release"
+  - ./node_modules/.bin/codecov
+
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
