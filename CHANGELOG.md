@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/mike-north/qunit-snapsho/compare/v1.2.0...v1.2.1) (2018-11-06)
+
+
+### Bug Fixes
+
+* ensure QUnit Assert type augmentation succeeds ([d9478c4](https://github.com/mike-north/qunit-snapsho/commit/d9478c4))
+
 # [1.2.0](https://github.com/mike-north/qunit-snapsho/compare/v1.1.4...v1.2.0) (2018-11-05)
 
 
