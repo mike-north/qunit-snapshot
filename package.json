@@ -41,6 +41,7 @@
     "@commitlint/travis-cli": "7.2.1",
     "@microsoft/api-documenter": "1.5.50",
     "@microsoft/api-extractor": "6.1.1",
+    "@mike-north/js-lib-renovate-config": "^1.0.0",
     "@mike-north/js-lib-semantic-release-config": "0.0.0-development",
     "@mike-north/types": "1.0.7",
     "@types/json-stable-stringify": "1.0.32",
