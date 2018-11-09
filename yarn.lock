@@ -761,12 +761,12 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@microsoft/api-documenter@1.5.52":
-  version "1.5.52"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-1.5.52.tgz#90585638bd4878b82b78ba6c9835d79f3cade4a9"
-  integrity sha512-M8/iABGVa5X7F6Ao+V6lIoaT/3lLvxN+fdSeXJuMtzO1nFUJsD6+MCOpYsW+HPYTUOxVgcA3FdEmk6j7pO0BTw==
+"@microsoft/api-documenter@1.5.54":
+  version "1.5.54"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-1.5.54.tgz#5921e6213c445d99ab7962ebce6e2404f7645fcb"
+  integrity sha512-aA+p/sTfiQr7Lnt4qYSmQKbwzV2O8vFtPo0+QYeYITp8zdNsfQdIUjICgHE1/xESwst3Fz9zaFxbw19a48jcDA==
   dependencies:
-    "@microsoft/api-extractor" "6.1.3"
+    "@microsoft/api-extractor" "6.1.4"
     "@microsoft/node-core-library" "3.5.2"
     "@microsoft/ts-command-line" "4.2.2"
     colors "~1.2.1"
@@ -780,6 +780,22 @@
     "@microsoft/node-core-library" "3.5.2"
     "@microsoft/ts-command-line" "4.2.2"
     "@microsoft/tsdoc" "0.12.0"
+    "@types/node" "8.5.8"
+    "@types/z-schema" "3.16.31"
+    colors "~1.2.1"
+    jju "~1.3.0"
+    lodash "~4.17.5"
+    typescript "~3.0.3"
+    z-schema "~3.18.3"
+
+"@microsoft/api-extractor@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-6.1.4.tgz#a47d110d7a20d32d800ac49a64af9f527e7a5d4b"
+  integrity sha512-fgKr3BvgD7rXingrsvreLDhEQyH6RCGThNrQLIwCGiR1VXAGolC41fgzyQ8xNlKDvAwlAaaDFhw7DKQSz1192g==
+  dependencies:
+    "@microsoft/node-core-library" "3.5.2"
+    "@microsoft/ts-command-line" "4.2.2"
+    "@microsoft/tsdoc" "0.12.2"
     "@types/node" "8.5.8"
     "@types/z-schema" "3.16.31"
     colors "~1.2.1"
@@ -815,6 +831,11 @@
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.0.tgz#c186327359c40574e0a02eaf2513a83835f1e576"
   integrity sha512-c1mABULA2biVJ+AdoWD6k975wMnMeet25hC1VCTill6qyguermhSwmGClhCjzoxJJLvMk0zUzK9FVUNtRuNpfA==
+
+"@microsoft/tsdoc@0.12.2":
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.2.tgz#e3540be2e021ee0427a64ad10468ead90a758867"
+  integrity sha512-L/srhENhBtbZLUD9FfJ2ZQdnYv3A3MT3UI2EMbC06fHUzIxLjjbkomD6o42UrbsRMwlS9p1BtxExeaCdX73q2Q==
 
 "@mike-north/js-lib-renovate-config@1.0.0":
   version "1.0.0"
