@@ -1,3 +1,11 @@
+## [1.3.2](https://github.com/mike-north/qunit-snapsho/compare/v1.3.1...v1.3.2) (2018-11-09)
+
+
+### Bug Fixes
+
+* shared semantic-release and renovate config ([3e4181e](https://github.com/mike-north/qunit-snapsho/commit/3e4181e))
+* shared semantic-release and renovate config ([c6896f1](https://github.com/mike-north/qunit-snapsho/commit/c6896f1))
+
 ## [1.3.1](https://github.com/mike-north/qunit-snapsho/compare/v1.3.0...v1.3.1) (2018-11-06)
 
 
