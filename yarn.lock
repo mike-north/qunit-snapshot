@@ -761,13 +761,13 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@microsoft/api-documenter@1.5.56":
-  version "1.5.56"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-1.5.56.tgz#6477ba1975af8114c816e9ca91aa0021b35b0777"
-  integrity sha512-DNrMDnAySL3lyb779iSHZjvPDYDmsyLw0wV8iDhTFO2umFgBmgpsdtHIIihiwuIMwrzT3Shh5MzrsS7+pBcYWw==
+"@microsoft/api-documenter@1.5.57":
+  version "1.5.57"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-1.5.57.tgz#80d0ff7e933f6f720e84e19f43f1eb09a155113c"
+  integrity sha512-4w0kFYGzoe34jZLCI5gc7j4hkrrYbyWtDpRIr+v1nxbFBDLiJ5PcLp8iWSp7yAhTtBuq/LLhJM4SGu8PVqnDuA==
   dependencies:
-    "@microsoft/api-extractor" "6.1.6"
-    "@microsoft/node-core-library" "3.6.0"
+    "@microsoft/api-extractor" "6.2.0"
+    "@microsoft/node-core-library" "3.7.0"
     "@microsoft/ts-command-line" "4.2.2"
     colors "~1.2.1"
     js-yaml "~3.9.1"
