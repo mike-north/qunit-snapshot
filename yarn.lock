@@ -808,10 +808,10 @@
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.2.tgz#e3540be2e021ee0427a64ad10468ead90a758867"
   integrity sha512-L/srhENhBtbZLUD9FfJ2ZQdnYv3A3MT3UI2EMbC06fHUzIxLjjbkomD6o42UrbsRMwlS9p1BtxExeaCdX73q2Q==
 
-"@mike-north/js-lib-renovate-config@1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@mike-north/js-lib-renovate-config/-/js-lib-renovate-config-1.1.5.tgz#db1cb9481ff748c644ec69d58505160e814c9af4"
-  integrity sha512-ueDeYxE8kU+dnsCKmNnsnI0A83atKclGNa6Hxax0BQ30yZh21mium/BwwWMIuRhavJGbkHdf+0kkUv4C6VPngQ==
+"@mike-north/js-lib-renovate-config@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@mike-north/js-lib-renovate-config/-/js-lib-renovate-config-1.2.0.tgz#22642f3cfd6ebce6806793c856358ee5342b3be6"
+  integrity sha512-tInnOwK5DHM66dtK7mzjqknAogEm24Kn4SizoGCZalCT7OeGgOSsXZNAV0m3O3WJek73TdE3o0IbQmCDoTFRQw==
 
 "@mike-north/js-lib-semantic-release-config@1.0.1":
   version "1.0.1"
@@ -826,10 +826,10 @@
     semantic-release "^15.9.9"
     travis-deploy-once "^5.0.9"
 
-"@mike-north/types@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@mike-north/types/-/types-1.0.7.tgz#40e667f97276d8773dc8d4d0c907143b0dd4b561"
-  integrity sha512-UoMyDIxFPxmetQNwLT2+bcz7STgZMCVjGvW0nrttOxTpbZAnjN4aO3lmX2IcshxW3UO5iZJmvnTEQgNibqla+Q==
+"@mike-north/types@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@mike-north/types/-/types-1.1.0.tgz#265d26ab4f93120957fe4331265af8de340150bb"
+  integrity sha512-txbrBmm2k9hDN7khRbsxPKijUjrGAMRR2/kFW/oYcO2+SkS2B8blym8g/MdsYpZm+cViw/DOOb66PoNP5GnAJQ==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
