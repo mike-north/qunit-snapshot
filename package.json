@@ -38,7 +38,7 @@
     "@commitlint/cli": "7.3.2",
     "@commitlint/config-conventional": "7.3.1",
     "@commitlint/travis-cli": "7.3.2",
-    "@microsoft/api-documenter": "1.5.59",
+    "@microsoft/api-documenter": "7.0.14",
     "@microsoft/api-extractor": "6.3.0",
     "@mike-north/js-lib-renovate-config": "1.2.0",
     "@mike-north/js-lib-semantic-release-config": "1.0.1",
