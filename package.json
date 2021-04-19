@@ -59,7 +59,7 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "qunit": "^2.8.0"
+    "qunit": "^2.15.0"
   },
   "commitlint": {
     "extends": [
