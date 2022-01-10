@@ -932,7 +932,7 @@
     resolve-from "5.0.0"
     resolve-global "1.0.0"
 
-"@commitlint/cli@^8.3.5":
+"@commitlint/cli@8.3.6", "@commitlint/cli@^8.3.6":
   version "8.3.6"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-8.3.6.tgz#4375dc52616ab974201e03df66adeb0e22ae42fc"
   integrity sha512-fg8p9/ZrzhUPIXBGrpzwKu50WT13jYS5OffYlkStPuemuv0GjXu37B8J/zNgu6UhrdBVHbmBR0LriKAzRLG/4g==
@@ -953,6 +953,13 @@
   version "8.3.4"
   resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-8.3.4.tgz#fed13b3711690663b176c1f6b39c205a565618d2"
   integrity sha512-w0Yc5+aVAjZgjYqx29igBOnVCj8O22gy3Vo6Fyp7PwoS7+AYS1x3sN7IBq6i7Ae15Mv5P+rEx1pkxXo5zOMe4g==
+  dependencies:
+    conventional-changelog-conventionalcommits "4.2.1"
+
+"@commitlint/config-conventional@8.3.6":
+  version "8.3.6"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-8.3.6.tgz#9199ab11fbc63ca20039b3da6566b10c4dd77f3b"
+  integrity sha512-sbjDwFoa0on+IUbnBswd1ZTa8bkcDlzgWS/s2HapwNw8CBHBuoJbBDOQBqaYLI4b4O7SHYyArMx3V1FvUXTVsg==
   dependencies:
     conventional-changelog-conventionalcommits "4.2.1"
 
@@ -1062,12 +1069,12 @@
   dependencies:
     find-up "^4.0.0"
 
-"@commitlint/travis-cli@8.3.5":
-  version "8.3.5"
-  resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-8.3.5.tgz#876207b7d5fe1f5b94f89d32c202dca2234e0725"
-  integrity sha512-E456A36Ya9Zrr0+ONfkPoHNdWnX4zfR6seHjuzTy0393iSHNc9cZ250mGw0SKQiYQu8x1QHrQyWwyRXLb2iASw==
+"@commitlint/travis-cli@8.3.6":
+  version "8.3.6"
+  resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-8.3.6.tgz#d57975293f54358f29990785343bdca37c8b6994"
+  integrity sha512-W10VC7/sw118KU0Ev5xARhTrSibUAefAIDCwWsN/ss1IOeGrTSooV+9Dv2q5Zqy1Lc28sAt8Cx3UAaFVrOykIw==
   dependencies:
-    "@commitlint/cli" "^8.3.5"
+    "@commitlint/cli" "^8.3.6"
     babel-runtime "6.26.0"
     execa "0.11.0"
 
