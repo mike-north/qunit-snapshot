@@ -47,7 +47,7 @@
     "@types/qunit": "2.5.4",
     "codecov": "3.8.2",
     "ember-cli": "4.1.0",
-    "husky": "2.7.0",
+    "husky": "8.0.3",
     "json-typescript": "1.1.2",
     "libkit": "mike-north/libkit#ts-3",
     "nyc": "14.1.1",
