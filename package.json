@@ -51,7 +51,7 @@
     "json-typescript": "1.1.2",
     "libkit": "mike-north/libkit#ts-3",
     "nyc": "14.1.1",
-    "semantic-release": "15.12.5",
+    "semantic-release": "17.2.3",
     "shelljs": "0.8.5",
     "tslint": "5.17.0",
     "tslint-config-prettier": "1.18.0",
