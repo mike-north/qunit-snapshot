@@ -46,7 +46,7 @@
     "@types/json-stable-stringify": "1.0.33",
     "@types/qunit": "2.5.4",
     "codecov": "3.8.3",
-    "ember-cli": "4.1.0",
+    "ember-cli": "4.12.3",
     "husky": "2.7.0",
     "json-typescript": "1.1.2",
     "libkit": "mike-north/libkit#ts-3",
