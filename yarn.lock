@@ -1659,10 +1659,10 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/json-stable-stringify@1.0.33":
-  version "1.0.33"
-  resolved "https://registry.yarnpkg.com/@types/json-stable-stringify/-/json-stable-stringify-1.0.33.tgz#099b0712d824d15e2660c20e1c16e6a8381f308c"
-  integrity sha512-qEWiQff6q2tA5gcJGWwzplQcXdJtm+0oy6IHGHzlOf3eFAkGE/FIPXZK9ofWgNSHVp8AFFI33PJJshS0ei3Gvw==
+"@types/json-stable-stringify@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@types/json-stable-stringify/-/json-stable-stringify-1.1.0.tgz#41393e6b7a9a67221607346af4a79783aeb28aea"
+  integrity sha512-ESTsHWB72QQq+pjUFIbEz9uSCZppD31YrVkbt2rnUciTYEvcwN6uZIhX5JZeBHqRlFJ41x/7MewCs7E2Qux6Cg==
 
 "@types/mime@*":
   version "3.0.1"
@@ -1714,10 +1714,10 @@
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
   integrity sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==
 
-"@types/qunit@2.5.4":
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/@types/qunit/-/qunit-2.5.4.tgz#0518940acc6013259a8619a1ec34ce0e4ff8d1c4"
-  integrity sha512-VHi2lEd4/zp8OOouf43JXGJJ5ZxHvdLL1dU0Yakp6Iy73SjpuXl7yjwAwmh1qhTv8krDgHteSwaySr++uXX9YQ==
+"@types/qunit@2.19.11":
+  version "2.19.11"
+  resolved "https://registry.yarnpkg.com/@types/qunit/-/qunit-2.19.11.tgz#64fed1de913b8f25ea398565be9a2d6254276c54"
+  integrity sha512-JYIrHO/FFMJ8t6zcw5O8Id6ctKyBaYFZOQI9D6pXOI9TwSF+tkvPZAouo6RtvjvZCBBVNBcxf1lqKWMmUH1yaA==
 
 "@types/range-parser@*":
   version "1.2.4"
